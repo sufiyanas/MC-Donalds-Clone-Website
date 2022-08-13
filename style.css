@@ -1,0 +1,71 @@
+.navbar-brand img {
+
+    width: 108px;
+    height: 108px;
+
+}
+
+.navbar-brand {
+    width: 100%;
+    margin: 0 5rem 0 5rem;
+    padding: 0 5rem 0 5rem;
+    ;
+}
+
+header {
+
+    height: 150px;
+
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+.navbar-collapse {
+    align-items: flex-start;
+}
+
+.row {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+   
+
+@media only screen and (max-width: 1164px) {
+
+    .navbar-brand img {
+
+        width: 48px;
+        height: 48px;
+
+    }
+
+
+    header {
+
+        height: 73px;
+
+
+    }
+
+    .navbar-brand {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+        position: relative;
+    }
+    .menu-section {
+        position: absolute;
+        top: -3px;
+        left: 44px;
+    }
+}
